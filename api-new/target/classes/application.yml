@@ -4,22 +4,9 @@ server:
 spring:
     application:
         name: api-new
+    main:
+        allow-bean-definition-overriding: true
 
 feign:
     hystrix:
         enabled: true
-turbine:
-    app-config: soa-content,soa-group
-    aggregator:
-        cluster-config: default
-    cluster-name-expression: new String("default")
-    instanceUrlSuffix: /hystrix.stream
-
-management:
-    endpoints:
-        web:
-            exposure:
-                include: ["health","info","hystrix.stream"]
-            cors:
-                allowed-origins: "*"
-                allowed-methods: "*"

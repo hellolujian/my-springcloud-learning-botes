@@ -1,8 +1,6 @@
-package com.example.apinew.service.impl;
+package com.example.apicommunity.restclient;
 
-import com.example.apinew.model.ContentModel;
-import com.example.apinew.service.ContentService;
-import com.netflix.discovery.converters.Auto;
+import com.example.apicommunity.model.ContentModel;
 import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -14,17 +12,17 @@ import org.springframework.web.client.RestTemplate;
  * @Description:
  */
 @Service
-public class ContentServiceImpl implements ContentService {
+public class SoaContentRest {
 
     @Autowired
     private RestTemplate restTemplate;
 
     @HystrixCommand(fallbackMethod = "handleCallError")
-    public ContentModel callSoaContent(Integer contentId) {
+    public ContentModel callSoaContent(Long contentId) {
         return restTemplate.getForObject("http://soa-content/api/content/v1.1/contents/" + contentId, ContentModel.class);
     }
 
-    public ContentModel handleCallError(Integer contentId) {
+    public ContentModel handleCallError(Long contentId) {
         return new ContentModel();
     }
 }

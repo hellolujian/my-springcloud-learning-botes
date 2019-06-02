@@ -1,10 +1,7 @@
-package com.example.apinew.controller;
+package com.example.apicommunity.controller;
 
 import com.alibaba.fastjson.JSONObject;
-import com.example.apinew.model.ContentModel;
-import com.example.apinew.model.GroupModel;
-import com.example.apinew.restclient.SoaContentRest;
-import com.example.apinew.service.APIService;
+import com.example.apicommunity.service.APIService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -25,7 +22,7 @@ public class ApiController {
 
     @GetMapping(value = "/groups/{groupId}/contents/{contentId}")
     public JSONObject getGroupAndContentInfo(@PathVariable(value = "groupId") Integer groupId,
-                                             @PathVariable(value = "contentId") Long contentId) {
+                                             @PathVariable("contentId") Long contentId) {
         return apiService.getGroupAndContentInfo(groupId, contentId);
     }
 }

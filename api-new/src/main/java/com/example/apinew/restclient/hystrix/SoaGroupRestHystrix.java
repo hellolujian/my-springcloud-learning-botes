@@ -1,7 +1,7 @@
-package com.example.apinew.service.hystrix;
+package com.example.apinew.restclient.hystrix;
 
 import com.example.apinew.model.GroupModel;
-import com.example.apinew.service.GroupService;
+import com.example.apinew.restclient.SoaGroupRest;
 import org.springframework.stereotype.Component;
 
 /**
@@ -10,7 +10,7 @@ import org.springframework.stereotype.Component;
  * @Description:
  */
 @Component
-public class CallSoaGroupHystrix implements GroupService {
+public class SoaGroupRestHystrix implements SoaGroupRest {
 
     @Override
     public GroupModel callSoaGroup(Integer groupId) {

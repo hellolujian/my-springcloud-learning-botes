@@ -13,6 +13,7 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 @EnableEurekaClient
 @EnableHystrix
 @EnableHystrixDashboard
+@EnableFeignClients
 public class ApiNewApplication {
 
     public static void main(String[] args) {
