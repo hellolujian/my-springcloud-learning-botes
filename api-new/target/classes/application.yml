@@ -11,13 +11,15 @@ management:
     endpoints:
         web:
             exposure:
-                include: ["health","info","hystrix.stream"]
+                include: ["health","info","hystrix.stream", "refresh"]
             cors:
                 allowed-origins: "*"
                 allowed-methods: "*"
 feign:
     hystrix:
         enabled: true
+
+#hystrix配置（超时时间、线程数）
 hystrix:
     command:
         default:
@@ -29,5 +31,4 @@ hystrix:
                         timeoutInMilliseconds: 1000
     threadpool:
         default:
-            coreSize:
-                20
+            coreSize: 20
