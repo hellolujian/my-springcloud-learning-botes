@@ -4,3 +4,9 @@ server:
 spring:
     application:
         name: hystrix-turbine
+
+
+turbine:
+    app-config: api-new,api-community
+    cluster-name-expression: new String("default")
+    combine-host-port: true

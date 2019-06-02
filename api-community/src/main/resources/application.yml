@@ -5,16 +5,6 @@ spring:
     application:
         name: api-community
 
-feign:
-    hystrix:
-        enabled: true
-#turbine:
-#    app-config: soa-content,soa-group
-#    aggregator:
-#        cluster-config: default
-#    cluster-name-expression: new String("default")
-#    instanceUrlSuffix: /hystrix.stream
-
 management:
     endpoints:
         web:

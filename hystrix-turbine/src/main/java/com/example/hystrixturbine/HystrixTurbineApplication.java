@@ -8,8 +8,8 @@ import org.springframework.cloud.netflix.turbine.EnableTurbine;
 
 @SpringBootApplication
 @EnableTurbine
-@EnableHystrixDashboard
 @EnableEurekaClient
+@EnableHystrixDashboard
 public class HystrixTurbineApplication {
 
     public static void main(String[] args) {

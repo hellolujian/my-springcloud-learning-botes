@@ -1,17 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/eureka-server/pom.xml" />
-        <option value="$PROJECT_DIR$/soa-group/pom.xml" />
-        <option value="$PROJECT_DIR$/config-server/pom.xml" />
-        <option value="$PROJECT_DIR$/soa-content/pom.xml" />
-        <option value="$PROJECT_DIR$/soa-user/pom.xml" />
-        <option value="$PROJECT_DIR$/api-new/pom.xml" />
-        <option value="$PROJECT_DIR$/api-community/pom.xml" />
-        <option value="$PROJECT_DIR$/hystrix-turbine/pom.xml" />
       </list>
     </option>
   </component>
