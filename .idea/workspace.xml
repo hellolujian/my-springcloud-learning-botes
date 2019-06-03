@@ -1,18 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="54148c05-f1c3-4eeb-a894-68a1407b2115" name="Default Changelist" comment="">
+    <list default="true" id="54148c05-f1c3-4eeb-a894-68a1407b2115" name="Default Changelist" comment="update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-community/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/api-community/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-new/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/api-new/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-community/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/api-community/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-community/target/classes/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/api-community/target/classes/bootstrap.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api-new/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/api-new/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-new/target/classes/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/api-new/target/classes/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hystrix-turbine/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/hystrix-turbine/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/soa-content/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/soa-content/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/soa-content/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/soa-content/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/soa-group/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/soa-group/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/soa-group/target/classes/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/soa-group/target/classes/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-server/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soa-content/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/soa-content/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soa-group/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/soa-group/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soa-group/src/main/java/com/example/soagroup/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/soa-group/src/main/java/com/example/soagroup/controller/TestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soa-group/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/soa-group/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soa-group/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/soa-group/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soa-group/target/classes/com/example/soagroup/controller/TestController.class" beforeDir="false" afterPath="$PROJECT_DIR$/soa-group/target/classes/com/example/soagroup/controller/TestController.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/hystrix-turbine/target/" />
     <ignored path="$PROJECT_DIR$/config-server/target/" />
@@ -33,8 +34,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/api-new/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="81">
-              <caret line="13" column="58" selection-start-line="13" selection-start-column="58" selection-end-line="13" selection-end-column="58" />
+            <state relative-caret-position="20">
+              <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -42,26 +43,71 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config-server/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="301">
-              <caret line="18" selection-start-line="18" selection-end-line="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/soa-content/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+            <state relative-caret-position="381">
+              <caret line="24" column="39" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="39" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/soa-content/src/main/resources/bootstrap.yml">
+        <entry file="file://$PROJECT_DIR$/soa-content/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="9" column="41" lean-forward="true" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
+            <state relative-caret-position="20">
+              <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/soa-group/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="140">
+              <caret line="7" selection-start-line="7" selection-end-line="11" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/soa-group/src/main/resources/bootstrap.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/soa-group/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="320">
+              <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/soa-group/src/main/java/com/example/soagroup/SoaGroupApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/soa-group/src/main/java/com/example/soagroup/controller/TestController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api-community/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="11" column="58" selection-start-line="11" selection-start-column="58" selection-end-line="11" selection-end-column="58" />
             </state>
           </provider>
         </entry>
@@ -101,6 +147,8 @@
       <find>ribbon</find>
       <find>feign</find>
       <find>hystrix</find>
+      <find>act</find>
+      <find>actu</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -120,7 +168,6 @@
         <option value="$PROJECT_DIR$/api-community/src/main/java/com/example/apicommunity/service/APIService.java" />
         <option value="$PROJECT_DIR$/api-community/src/main/java/com/example/apicommunity/service/impl/APIServiceImpl.java" />
         <option value="$PROJECT_DIR$/api-community/src/main/java/com/example/apicommunity/controller/ApiController.java" />
-        <option value="$PROJECT_DIR$/soa-group/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/api-new/src/main/java/com/example/apinew/service/GroupService.java" />
         <option value="$PROJECT_DIR$/api-new/src/main/java/com/example/apinew/restclient/hystrix/SoaGroupRestHystrix.java" />
         <option value="$PROJECT_DIR$/api-new/src/main/java/com/example/apinew/service/ContentService.java" />
@@ -141,15 +188,18 @@
         <option value="$PROJECT_DIR$/api-community/src/main/java/com/example/apicommunity/restclient/SoaGroupRest.java" />
         <option value="$PROJECT_DIR$/api-community/src/main/java/com/example/apicommunity/restclient/SoaContentRest.java" />
         <option value="$PROJECT_DIR$/config-server/pom.xml" />
-        <option value="$PROJECT_DIR$/soa-group/src/main/resources/bootstrap.yml" />
         <option value="$PROJECT_DIR$/api-new/src/main/resources/bootstrap.yml" />
         <option value="$PROJECT_DIR$/hystrix-turbine/src/main/resources/bootstrap.yml" />
         <option value="$PROJECT_DIR$/soa-content/src/main/resources/bootstrap.yml" />
-        <option value="$PROJECT_DIR$/api-new/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/api-community/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/api-community/src/main/resources/bootstrap.yml" />
-        <option value="$PROJECT_DIR$/config-server/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/api-new/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/soa-content/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/soa-group/src/main/java/com/example/soagroup/controller/TestController.java" />
+        <option value="$PROJECT_DIR$/config-server/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/soa-group/pom.xml" />
+        <option value="$PROJECT_DIR$/soa-group/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/soa-group/src/main/resources/application.yml" />
       </list>
     </option>
   </component>
@@ -182,8 +232,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="125" />
-    <option name="y" value="26" />
+    <option name="x" value="147" />
+    <option name="y" value="65" />
     <option name="width" value="1786" />
     <option name="height" value="1015" />
   </component>
@@ -523,6 +573,16 @@
               <item name="soa-group" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="soagroup" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-learnning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-springcloud-learning-botes" type="462c0819:PsiDirectoryNode" />
+              <item name="soa-group" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -586,7 +646,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559475008967" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559564638446" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
@@ -614,7 +674,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.SoaContentApplication">
+  <component name="RunManager" selected="Spring Boot.ConfigServerApplication">
     <configuration name="ApiCommunityApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="api-community" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.apicommunity.ApiCommunityApplication" />
@@ -622,9 +682,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ApiNewApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <configuration name="ApiNewApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" singleton="false">
       <module name="api-new" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.apinew.ApiNewApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -650,7 +711,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SoaContentApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" singleton="false">
+    <configuration name="SoaContentApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" singleton="true">
       <module name="soa-content" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.soacontent.SoaContentApplication" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -658,7 +719,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SoaGroupApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" singleton="false">
+    <configuration name="SoaGroupApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" singleton="true">
       <module name="soa-group" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.soagroup.SoaGroupApplication" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -687,7 +748,9 @@
       <option name="presentableId" value="Default" />
       <updated>1559370174484</updated>
       <workItem from="1559370176991" duration="8886000" />
-      <workItem from="1559454480398" duration="16098000" />
+      <workItem from="1559454480398" duration="16236000" />
+      <workItem from="1559525449452" duration="55000" />
+      <workItem from="1559560966717" duration="3543000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1559455595270</created>
@@ -710,17 +773,24 @@
       <option name="project" value="LOCAL" />
       <updated>1559472561939</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="update">
+      <created>1559475052268</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1559475052268</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24984000" />
+    <option name="totallyTimeSpent" value="28720000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="160" y="31" width="1786" height="1015" extended-state="0" />
+    <frame x="147" y="65" width="1786" height="1015" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22595596" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19003476" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -731,7 +801,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.5323496" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.43927357" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.43927357" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -763,16 +833,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/api-community/src/main/java/com/example/apicommunity/service/APIService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/api-community/src/main/java/com/example/apicommunity/service/impl/APIServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="218">
@@ -858,13 +918,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" column="33" lean-forward="true" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/soa-group/src/main/java/com/example/soagroup/SoaGroupApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="10" column="34" lean-forward="true" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
         </state>
       </provider>
     </entry>
@@ -973,9 +1026,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/soa-group/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/api-new/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="93">
@@ -1061,20 +1111,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/soa-group/src/main/resources/bootstrap.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="9" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api-community/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="11" column="58" selection-start-line="11" selection-start-column="58" selection-end-line="11" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/hystrix-turbine/src/main/resources/bootstrap.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
@@ -1096,17 +1132,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/soa-group/src/main/resources/application.yml">
+    <entry file="file://$PROJECT_DIR$/soa-content/src/main/resources/bootstrap.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api-new/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="13" column="58" selection-start-line="13" selection-start-column="58" selection-end-line="13" selection-end-column="58" />
+        <state relative-caret-position="180">
+          <caret line="9" column="41" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
         </state>
       </provider>
     </entry>
@@ -1117,24 +1146,66 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config-server/src/main/resources/application.yml">
+    <entry file="file://$PROJECT_DIR$/api-community/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="220">
+          <caret line="11" column="58" selection-start-line="11" selection-start-column="58" selection-end-line="11" selection-end-column="58" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/soa-content/src/main/resources/bootstrap.yml">
+    <entry file="file://$PROJECT_DIR$/api-new/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="9" column="41" lean-forward="true" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
+        <state relative-caret-position="20">
+          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/soa-content/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/soa-group/src/main/java/com/example/soagroup/controller/TestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/soa-group/src/main/java/com/example/soagroup/SoaGroupApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config-server/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="381">
+          <caret line="24" column="39" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/soa-group/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/soa-group/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
-          <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/soa-group/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" selection-start-line="7" selection-end-line="11" selection-end-column="39" />
         </state>
       </provider>
     </entry>

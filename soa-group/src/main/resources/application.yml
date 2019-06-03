@@ -5,3 +5,9 @@ mybatis:
     mapper-locations: classpath:mapper/*.xml
     type-aliases-package: com.example.soagroup.model
 
+#config 动态刷新
+management:
+    endpoints:
+        web:
+            exposure:
+                include: refresh,health
