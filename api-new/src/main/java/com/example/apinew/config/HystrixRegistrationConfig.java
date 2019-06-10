@@ -5,8 +5,6 @@ import org.springframework.boot.web.servlet.ServletRegistrationBean;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
-import javax.servlet.ServletRegistration;
-
 /**
  * @Author: lujian01
  * @Date: 2019/5/29 21:43

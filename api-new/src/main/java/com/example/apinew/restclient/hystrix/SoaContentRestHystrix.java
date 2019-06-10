@@ -1,7 +1,6 @@
 package com.example.apinew.restclient.hystrix;
 
 import com.example.apinew.model.ContentModel;
-import com.example.apinew.model.GroupModel;
 import com.example.apinew.restclient.SoaContentRest;
 import org.springframework.stereotype.Component;
 

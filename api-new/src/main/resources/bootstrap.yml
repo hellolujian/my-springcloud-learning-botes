@@ -1,9 +1,11 @@
 spring:
+    application:
+        name: api-new
     cloud:
         config:
             label: master
             profile: dev
-            name: eureka-client
+            name: ${spring.application.name},eureka-client #,hystrix
             discovery:
                 enabled: true
                 service-id: config-server

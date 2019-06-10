@@ -7,7 +7,6 @@ import com.example.apinew.model.GroupModel;
 import com.example.apinew.restclient.SoaContentRest;
 import com.example.apinew.restclient.SoaGroupRest;
 import com.example.apinew.service.APIService;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;

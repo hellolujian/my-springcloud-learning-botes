@@ -1,9 +1,6 @@
 package com.example.apinew.controller;
 
 import com.alibaba.fastjson.JSONObject;
-import com.example.apinew.model.ContentModel;
-import com.example.apinew.model.GroupModel;
-import com.example.apinew.restclient.SoaContentRest;
 import com.example.apinew.service.APIService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
