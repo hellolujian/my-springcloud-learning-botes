@@ -1,9 +1,0 @@
-spring:
-    cloud:
-        config:
-            label: master
-            profile: dev
-            name: eureka-client
-            discovery:
-                enabled: true
-                service-id: config-server

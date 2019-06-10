@@ -1,7 +1,0 @@
-server:
-    port: 9003
-
-mybatis:
-    mapper-locations: classpath:mapper/*.xml
-    type-aliases-package: com.example.soagroup.model
-
