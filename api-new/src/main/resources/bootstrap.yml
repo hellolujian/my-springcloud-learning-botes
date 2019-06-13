@@ -5,7 +5,7 @@ spring:
         config:
             label: master
             profile: dev
-            name: ${spring.application.name},eureka-client #,hystrix
+            name: eureka-client #,hystrix
             discovery:
                 enabled: true
                 service-id: config-server

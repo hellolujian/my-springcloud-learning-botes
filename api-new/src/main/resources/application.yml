@@ -27,8 +27,6 @@ hystrix:
                 errorThresholdPercentage: 50                    # 出错百分比阈值，当达到此阈值后，开始短路。默认50%
             execution:
                 isolation:
-#                    semaphore:
-#                        maxConcurrentRequests: 10               #
                     strategy:
                         THREAD                                  # 隔离策略，默认THREAD
                     thread:
@@ -42,11 +40,11 @@ hystrix:
     threadpool:
         default:
             coreSize: 10
-            maxQueueSize: 5                                    # 最大排队长度。默认-1，使用SynchronousQueue，其他值则使用LinkedBlockingQueue。
+            maxQueueSize: 150                                    # 最大排队长度。默认-1，使用SynchronousQueue，其他值则使用LinkedBlockingQueue。
                                                                 # 该值不能动态调整，若要动态调整，需要使用到queueSizeRejectionThreshold配置
-            queueSizeRejectionThreshold: 5                      # 排队线程数量阈值，默认为5，达到时拒绝，如果配置了该选项，队列的大小是该队列
-            maximumSize: 10                                     # 1.5.9新增属性，设置线程池最大值。这个是在不开始拒绝HystrixCommand的情况下支持的最大并发数。这个属性起作用的前提是设置了allowMaximumSizeToDrivergeFromCoreSize。1.5.9之前，核心线程池大小和最大线程池大小总是相同的
-            allowMaximumSizeToDivergeFromCoreSize: false        # 在1.5.9中新增的属性。该属性允许maximumSize起作用。属性值可以等于或者大于coreSize值，设置coreSize小于maximumSize的线程池能够支持maximumSize的并发数，但是会将不活跃的线程返回到系统中去
+            queueSizeRejectionThreshold: 100                     # 排队线程数量阈值，默认为5，达到时拒绝，如果配置了该选项，队列的大小是该队列
+#            maximumSize: 20                                     # 1.5.9新增属性，设置线程池最大值。这个是在不开始拒绝HystrixCommand的情况下支持的最大并发数。这个属性起作用的前提是设置了allowMaximumSizeToDrivergeFromCoreSize。1.5.9之前，核心线程池大小和最大线程池大小总是相同的
+#            allowMaximumSizeToDivergeFromCoreSize: true        # 在1.5.9中新增的属性。该属性允许maximumSize起作用。属性值可以等于或者大于coreSize值，设置coreSize小于maximumSize的线程池能够支持maximumSize的并发数，但是会将不活跃的线程返回到系统中去
             metrics:
                 rollingStats:
                     timeInMilliSeconds: 10000                   # 设置统计的滚动窗口的时间段大小。该属性是线程池保持指标时间长短
