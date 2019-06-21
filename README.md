@@ -101,7 +101,7 @@ Fallback相当于是降级操作。
 ![](https://user-gold-cdn.xitu.io/2019/6/6/16b2c763dca42b0f?w=1953&h=768&f=png&s=396239)
 
 ### 五、链接
-- hystrix线程池队列配置：https://www.cnblogs.com/seifon/p/9921774.html
+- hystrix线程池队列配置：https://www.cnblogs.com/seifon/p/9921774.html，https://www.jianshu.com/p/3dfe6855e1c5
 
 
 
